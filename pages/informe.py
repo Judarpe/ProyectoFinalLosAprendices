@@ -29,7 +29,7 @@ def cargar_dataframe(ruta_archivo):
     """Carga el DataFrame desde un archivo CSV."""
     df = pd.read_csv(ruta_archivo,compression='bz2')
     return df
-ruta_del_archivo = "Data\Perfil_demografico_Final.csv"  # Reemplaza con la ruta de tu archivo
+ruta_del_archivo = "Data/Perfil_demografico_Final.csv"  # Reemplaza con la ruta de tu archivo
 df = cargar_dataframe(ruta_del_archivo)
 
 util.generarMenu()
