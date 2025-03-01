@@ -20,7 +20,7 @@ def generarMenu():
             st.image(imagen,use_container_width=False,width=95)
         
         st.page_link("app.py",label="Inicio",icon='🏠')
-        st.page_link("Pages/informe.py",label="Informe",icon="📃")
+        st.page_link("Pages/informe.py",label="Informe")
 
 def mostrartabla(df,titulo):
     df2=pd.DataFrame(df)
