@@ -12,11 +12,11 @@ def generarMenu():
         # st.header("Análisis de la Distribución de Atenciones de Salud en el municipio de Medellín.")
         col1,col2=st.columns(2)
         with col1:            
-            imagen=Image.open("Media\Sisben.jpg")
+            imagen=Image.open("Media/Sisben.jpg")
             
             st.image(imagen,use_container_width=False,width=120)
         with col2:
-            imagen=Image.open("Media\EscudoMedellin.png")
+            imagen=Image.open("Media/EscudoMedellin.png")
             st.image(imagen,use_container_width=False,width=95)
         
         st.page_link("app.py",label="Inicio",icon='🏠')
