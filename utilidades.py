@@ -16,7 +16,7 @@ def generarMenu():
             
             st.image(imagen,use_container_width=False,width=120)
         with col2:
-            imagen=Image.open("Media/EscudoMedellin.png")
+            imagen=Image.open("MediaEscudoMedellin.png")
             st.image(imagen,use_container_width=False,width=95)
         
         st.page_link("app.py",label="Inicio",icon='🏠')
